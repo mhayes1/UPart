@@ -1,0 +1,29 @@
+Package: UPart
+Type: Package
+Title: Ungulate Parturition Modeling and Predicting
+Version: 0.3.1
+Author: Matthew M. Hayes
+Maintainer: Matthew M. Hayes <mhayes1@uwyo.edu>
+Description: This package leverages ungulate movement data to model and predict time and day of parturition.
+License: GPL-3
+LazyData: TRUE
+Depends:
+    adehabitatLT,
+    move,
+    RCurl,
+    rgdal,
+    rgeos,
+    rvest,
+    sp,
+    snow,
+    XML,
+    httr,
+    ggmap,
+    maptools,
+    dplyr,
+    zoo,
+    data.table,
+    rfUtilities,
+    randomForest,
+    RColorBrewer
+RoxygenNote: 6.0.1
