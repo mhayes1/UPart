@@ -7,7 +7,7 @@ Maintainer: Matthew M. Hayes <mhayes1@uwyo.edu>
 Description: This package leverages ungulate movement data to model and predict time and day of parturition.
 License: GPL-3
 LazyData: TRUE
-Depends:
+Imports:
     adehabitatLT,
     move,
     RCurl,
