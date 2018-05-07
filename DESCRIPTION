@@ -8,22 +8,13 @@ Description: This package leverages ungulate movement data to model and predict 
 License: GPL-3
 LazyData: TRUE
 Imports:
+    rvest, 
+    RCurl, 
+    sp, 
+    xml2, 
+    move, 
+    snow, 
+    parallel, 
     adehabitatLT,
-    move,
-    RCurl,
-    rgdal,
-    rgeos,
-    rvest,
-    sp,
-    snow,
-    XML,
-    httr,
-    ggmap,
-    maptools,
-    dplyr,
-    zoo,
-    data.table,
-    rfUtilities,
-    randomForest,
-    RColorBrewer
+    data.table
 RoxygenNote: 6.0.1
