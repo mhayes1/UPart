@@ -12,7 +12,7 @@
 #' \donttest{L12(dat=mdat2,idl=tabby,filen='/home/mhayes1/Desktop/DEERPTesting/L12.rds')}
 #'
 
-L12<-function(dat,idl,filen='C:/Users/mhayes1/Desktop/fawnStuff/L12.rds'){
+PrettyData<-function(dat,idl,filen='C:/Users/mhayes1/Desktop/fawnStuff/L12.rds'){
 
   dat$CollarSerialNumber<-as.character(as.numeric(as.character(dat$CollarSerialNumber)))
 
